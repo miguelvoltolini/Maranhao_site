@@ -1,47 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", Sans-serif;
 }
 
 body{
-    background-color:  black;
-    font-family: "Montserrat", Sans-serif;
+  background-color:  black;
+  font-family: "Montserrat", Sans-serif;
 }
 
-
-/*======================================================================header//*/
 header{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(28, 28, 28);
-    height: 13vh;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(28, 28, 28);
+  height: 13vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
 li{
-    font-size: 1.3rem;
-    margin-right: 15px;
-    font-weight: 600;
+  font-size: 1.3rem;
+  margin-right: 15px;
+  font-weight: 600;
 }
 
 a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover{
-  color: rgb(39, 39, 241);
+color: rgb(39, 39, 241);
 }
+
 
 img#est_band{
   height: 6rem;
@@ -53,91 +53,96 @@ img#est_band{
 img#est_band:hover{
   filter: saturate(100%); /*rover*/
 }
-/*======================================================================header//*/
 
 
 
-h1#tt{
-    margin-top: 20px;
-    text-align: center;
+h1{
+  color: white;
+  margin-top: 20px;
+  margin-left: 540px
 }
 
-hr#hrtt{
-  width: 170px;
-  margin-left: 675px;
-  height: 2px;
-  background-color:rgb(39, 39, 241) ;
+hr{
+  margin-top: 5px; 
+  opacity: 100%;
+  height: 1px;
+  width: 450px;
+  background-color: rgba(128, 128, 128, 0.81) ;
   border: none;
+  margin-left: 455px
+}
+
+button{
+  height: 5em;
+  width: 30vw;
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: .50rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: white;
+  border-color: white;
+  
+}
+button:hover {
+  color: #fff;
+  background-color: rgb(39, 39, 241);
+  border-color: rgb(39, 39, 241);
+
+}
+p#pg1{
+  color: rgb(197, 251, 251);
+}
+
+.botao1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 455px;
+}
+
+.botao2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 455px;
+}
+.botao3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 455px;
+}
+.botao4{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 455px;
+}
+.botao5{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 455px;
 }
 
 
-p#txt_c1{
-    margin-top: 30px;
-    margin-left: 170px;
-    margin-right: 170px;
-    text-align: center;
-}
-
-div.imgs_c{
-    margin-top: 30px;
-    display: flex;
-    width: 100%;
-}
-
-
-.imgs_c {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .hover-darken {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .image-container {
-    position: relative;
-  }
-  
-  .imgs_c img {
-    margin-left: 5%;
-    width: 90%;
-    border-radius: 15px;
-    filter: saturate(0%); /*altera saturação */
-    transition: filter 0.3s ease; /*coloca transição pro filtro*/
-  }
-  
-  .imgs_c .hover-darken:hover img {
-    filter: saturate(100%);
-  }
-  
-  .image-text {
-    position: absolute;
-    font-size: 1.7rem;
-    font-weight: 500;
-    transition: opacity 0.3s ease;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    opacity: 0;
-  }
-  
-  .image-text:hover{
-    opacity: 1;
-  }
 
 
 
 
 
 
-  
 
-/* ====================================================footer==  */
 
-  footer {
+footer {
   background-color: rgb(29, 29, 29);
 	color: #fff;
 	padding: 13% 0;
@@ -389,4 +394,219 @@ color: black;
 #flaticon{
     color: black;
 }
-/* ====================================================footer==  */
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  html{
+      width: 100%;
+  }
+/*=========================== MENU ====================*/
+
+header {
+background-color: transparent;
+color: #fff;
+padding: 1% 0;
+margin: 0;
+}
+  .menu_geral {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar {
+      position: static;
+      height: auto;
+      background-color: transparent;
+      display: none;
+  }
+
+  .navbar_ativo {
+      display: block;
+      left: 0;
+      height: 75%;
+      width: auto;
+      background-color: rgb(255, 255, 255);
+  }
+
+  .btn-menu {
+      display: block;
+      margin-right: 0;
+      margin-top: 3%;
+      margin-bottom: 10px;
+  }
+
+  ul.menu_nav {
+      display: none;
+  }
+
+  .logo {
+      margin-top: -3%;
+      margin-left: 5%;
+      
+  }
+/*=========================== MENU ====================*/
+
+
+/*=========================== RODAPE ====================*/
+footer {
+  padding: 127% 0;
+}
+
+img#logordp {
+  margin-left: 15%;
+  margin-top: -130%;
+  height: 20vh;
+}
+
+hr#hrrdp {
+  margin-left: 53.3%;
+  margin-top: -124%;
+  height: 90px;
+}
+p#plogo {
+  margin-left: 59%;
+  margin-top: -121%;
+}
+
+h1#h1logo {
+  margin-left: 59%;
+  margin-top: -116.5%;
+  font-size: 1.4rem;
+}
+
+h2#h2logo {
+  margin-left: 59.2%;
+  margin-top: -115%;
+  font-size: 1rem;
+}
+
+h1#h1icns {
+  padding: 0;
+  margin-left: 60px;
+  margin-top: -50vh;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+h2#h2icns {
+  padding: 0;
+  margin-left: 53px;
+  margin-top: -44vh;
+  text-align: center;
+  font-size: 1rem;
+}
+
+img#icntelef {
+  margin-left: 40%;
+  margin-top: -17vh;
+  height: 10vh;
+}
+
+h1#h1telef {
+  margin-left: 95px;
+  margin-top: -5vh;
+  font-size: 1.1rem;
+}
+
+h2#h2telef {
+  margin-left: 150px;
+  margin-top: -1vh;
+  font-size: 0.9rem;
+}
+
+img#icnwpp {
+  margin-left: 40%;
+  margin-top: 8vh;
+  height: 10vh;
+}
+
+h1#h1wpp {
+  margin-left: 95px;
+  margin-top: 22vh;
+  font-size: 1.1rem;
+}
+
+h2#h2wpp {
+  margin-left: 150px;
+  margin-top: 26vh;
+  font-size: 0.9rem;
+}
+
+img#icnemail {
+  margin-left: 40%;
+  margin-top: 34vh;
+  height: 10vh;
+}
+
+h1#h1email {
+  margin-left: 80px;
+  margin-top: 46vh;
+  font-size: 1.1rem;
+}
+
+h2#h2email {
+  margin-left: 115px;
+  margin-top: 50vh;
+  font-size: 0.9rem;
+}
+
+img#icnhlp1 {
+  height: 8vh;
+  margin-top: -32vh;
+  margin-left: 23%;
+}
+
+img#icnhlp2{
+  height: 8vh;
+  margin-top: -32vh;
+  margin-left: 43%;
+}
+
+img#icnhlp3{
+  height: 8vh;
+  margin-top: -32vh;
+  margin-left: 63%;
+}
+
+p#plink {
+  display: none;
+}
+
+a#plki {
+  display: none;
+}
+
+a#plkh {
+  display: none;
+}
+
+a#plkc {
+  display: none;
+}
+
+h1#h1pfin {
+  margin-left: 15vw;
+  margin-top: 60vh;
+  font-size: 0.8rem;
+}
+
+h2#h2pfin {
+  margin-left: 32.5vw;
+  margin-top: 60vh;
+  font-size: 0.8rem;
+}
+
+div#pdireitos {
+  margin-left: 19vw;
+  margin-top: 63vh;
+  font-size: 0.6rem;
+}
+/*=========================== RODAPE ====================*/
+
+}

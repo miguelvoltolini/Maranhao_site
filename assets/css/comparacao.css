@@ -1,0 +1,382 @@
+body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: black;
+    margin: 0;
+    font-family: "Montserrat", Sans-serif;
+    /* height: 100vh; */
+}
+
+
+hr{
+    /* margin-top: -10px; */
+    opacity: 100%;
+    height: 1px;
+    width: 850px;
+    background-color: rgba(128, 128, 128, 0.81) ;
+    border: none;
+}
+
+/*======================================================================header//*/
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(28, 28, 28);
+    height: 13vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li{
+    font-size: 1.3rem;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+  color: rgb(39, 39, 241);
+}
+
+img#est_band{
+  height: 6rem;
+  background-color: transparent;
+  margin-left: 15px;
+  filter: saturate(0%); /*altera saturação */
+  transition: filter 0.3s ease; /*coloca transição pro filtro*/
+}
+img#est_band:hover{
+  filter: saturate(100%); /*rover*/
+}
+/*======================================================================header//*/
+
+
+.container {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.graficos-dupla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.group {
+    margin: 10px;
+}
+
+.group .main {
+    margin: 20px;
+    display: inline-block;
+}
+
+button {
+    height: 5em;
+    width: 30vw;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .50rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: white;
+    border-color: white;
+}
+
+.botao4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35%;
+  }
+
+
+button:hover {
+    color: #fff;
+    background-color: rgb(39, 39, 241);
+    border-color: rgb(39, 39, 241);
+}
+
+
+
+
+
+/* ====================================================footer==  */
+
+footer {
+    background-color: rgb(29, 29, 29);
+      color: #fff;
+      padding: 13% 0;
+  }
+  
+  img#logordp{
+      position: absolute;
+      margin-left: 7vw;
+      margin-top: -26vh;
+      height: 25vh;
+      filter: saturate(0%); /*altera saturação */
+      transition: filter 0.3s ease; /*coloca transição pro filtro*/
+  }
+  img#logordp:hover{
+    filter: saturate(100%); /*rover*/
+  }
+  
+  hr#hrrdp{
+      position: absolute;
+      margin-left: 19.4vw;
+      margin-top: -21vh;
+      opacity: 100%;
+      height: 120px;
+      width: 1.8px;
+      background-color: rgba(128, 128, 128, 0.81) ;
+      border: none;
+  }
+  
+  p#plogo{
+      color: #696969;
+      position: absolute;
+      margin-left: 20.3vw;
+      margin-top: -17.5vh;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 300;
+  }
+  
+  h1#h1logo{
+      position: absolute;
+      margin-left: 20.3vw;
+      margin-top: -15vh;
+      font-size: 1.7rem;
+      color: #696969;
+      font-weight: 700;
+      font-family: "Montserrat", Sans-serif;
+      text-transform: uppercase;
+  }
+  h2#h2logo{
+      position: absolute;
+      margin-left: 20.3vw;
+      margin-top: -13.9vh;
+      color: #696969;
+      font-weight: 300;
+      font-family: "Montserrat", Sans-serif;
+      text-transform: uppercase;
+      font-size: 1rem;
+  }
+  img#icntelef{
+      position: absolute;
+      margin-left: 9.8vw;
+      margin-top: 5.5vh;
+      height: 7.5vh;
+  }
+  h1#h1telef{
+      position: absolute;
+      margin-left: 15.3vw;
+      margin-top: 7vh;
+      font-size: 1.2rem;
+      color: #696969;
+      font-weight: 600;
+      font-family: "Montserrat", Sans-serif;
+  }
+  h2#h2telef{
+      position: absolute;
+      margin-left: 15.3vw;
+      margin-top: 10.8vh;
+      font-size: 0.9rem;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  
+  img#icnwpp{
+      position: absolute;
+      height: 7.5vh;
+      margin-top: 5.5vh;
+      margin-left: 40vw;
+  }
+  h1#h1wpp{
+      position: absolute;
+      margin-left: 45vw;
+      margin-top: 7vh;
+      font-size: 1.2rem;
+      color: #696969;
+      font-weight: 600;
+      font-family: "Montserrat", Sans-serif;
+  }
+  h2#h2wpp{
+      position: absolute;
+      margin-left: 45vw;
+      margin-top: 10.8vh;
+      font-size: 0.9rem;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  
+  img#icnemail{
+      position: absolute;
+      height: 8.5vh;
+      margin-top: 5.5vh;
+      margin-left: 70vw;
+  }
+  h1#h1email{
+      position: absolute;
+      margin-left: 75.5vw;
+      margin-top: 6.7vh;
+      font-size: 1.2rem;
+      color:#696969;
+      font-weight: 600;
+      font-family: "Montserrat", Sans-serif;
+  }
+  h2#h2email{
+      position: absolute;
+      margin-left: 75.5vw;
+      margin-top: 10.4vh;
+      font-size: 0.9rem;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  
+  img#icnhlp1{
+    position: absolute;
+    height: 7.2vh;
+    margin-top: -6vh;
+    margin-left: 70vw;
+    transition: transform 0.5s ease;
+  }
+  img#icnhlp1:hover{
+    opacity: 85%;
+    cursor: pointer;
+    transform: translateY(-13px);
+  }
+  img#icnhlp2{
+    position: absolute;
+    height: 7.2vh;
+    margin-top: -6vh;
+    margin-left: 74vw;
+    transition: transform 0.5s ease;
+  }
+  img#icnhlp2:hover{
+    opacity: 85%;
+    cursor: pointer;
+    transform: translateY(-13px);
+  }
+  img#icnhlp3{
+    position: absolute;
+    height: 7.2vh;
+    margin-top: -6vh;
+    margin-left: 78vw;
+    transition: transform 0.5s ease;
+  }
+  img#icnhlp3:hover{
+    opacity: 85%;
+    cursor: pointer;
+    transform: translateY(-13px);
+  }
+  
+  h1#h1icns{
+      position: absolute;
+      margin-left: 70.5vw;
+      margin-top: -24vh;
+      font-size: 1.3rem;
+      color:#696969;
+      font-weight: 600;
+      font-family: "Montserrat", Sans-serif;
+  }
+  h2#h2icns{
+      position: absolute;
+      margin-left: 70.5vw;
+      margin-top: -17vh;
+      font-size: 1rem;
+      color: #696969;
+      font-weight: 300;
+      font-family: "Montserrat", Sans-serif;
+  }
+  p#plink{
+      position: absolute;
+      margin-top: -24vh;
+      margin-left: 40vw;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  
+  a#plki{
+      position: absolute;
+      margin-top: -20vh;
+      margin-left: 40vw;
+      text-decoration: none;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  a#plkh{
+      position: absolute;
+      margin-top: -19vh;
+      margin-left: 40vw;
+      text-decoration: none;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  a#plkc{
+      position: absolute;
+      margin-top: -18vh;
+      margin-left: 40vw;
+      text-decoration: none;
+      color: #696969;
+      font-family: "Montserrat", Sans-serif;
+  }
+  
+  h1#h1pfin{
+      font-family: "Montserrat", Sans-serif;
+      position: absolute;
+      margin-left: 36.8vw;
+      margin-top: 20vh;
+      font-size: 1rem;
+      color: #696969;
+  }
+  h2#h2pfin{
+      font-family: "Montserrat", Sans-serif;
+      position: absolute;
+      margin-left: 42.5vw;
+      margin-top: 20vh;
+      font-size: 1rem;
+      color: #919090;
+  }
+  
+  div#pdireitos{
+      font-family: "Montserrat", Sans-serif;
+      position: absolute;
+      margin-left: 39vw;
+      margin-top: 23vh;
+      font-size: 0.7rem;
+      color: #696969;
+  }
+  #adir{
+  color: black;
+  }
+  #flaticon{
+      color: black;
+  }
+  /* ====================================================footer==  */

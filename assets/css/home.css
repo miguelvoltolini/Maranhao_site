@@ -14,14 +14,26 @@ body{
 
 /*======================================================================header//*/
 header{
-    display: flex;
-    flex-direction: row;
     background-color: rgb(28, 28, 28);
     height: 13vh;
-    justify-content: space-between;
     align-items: center;
 }
 
+.menu_geral{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.material-symbols-outlined{
+    display: none;
+  }
+  
+.btn-menu{
+      display: none;
+  }
+    
 ul{
     display: flex;
     flex-direction: row;
@@ -64,7 +76,7 @@ h1#tt{
 
 hr#hrtt{
   width: 170px;
-  margin-left: 675px;
+  margin-left: 592px;
   height: 2px;
   background-color:rgb(39, 39, 241) ;
   border: none;
@@ -73,8 +85,8 @@ hr#hrtt{
 
 p#txt_c1{
     margin-top: 30px;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
 }
 
@@ -390,3 +402,9 @@ color: black;
     color: black;
 }
 /* ====================================================footer==  */
+
+
+
+
+
+

@@ -390,3 +390,277 @@ color: black;
     color: black;
 }
 /* ====================================================footer==  */
+
+
+
+@media (max-width: 768px) {
+
+  /* html{
+     width: 100%;
+     } */
+/*=========================== MENU ====================*/
+  
+.material-symbols-outlined{
+ display: block;
+  background-color: none;
+}
+  
+.btn-menu {
+ display: block;
+ background-color: transparent;
+ border: none;
+ margin-right: 0;
+ margin-top: 3%;
+ margin-bottom: 10px;
+ }
+  
+ header {
+ background-color: rgb(28, 28, 28);
+ height: 22vh;
+color: #fff;
+ padding: 1% 0;
+ margin: 0;
+ justify-content: center;
+ }
+  
+  
+ img#est_band{
+height: 6rem;
+ background-color: transparent;
+  margin-bottom: 60px;
+filter: saturate(0%); /*altera saturação */
+  transition: filter 0.3s ease; /*coloca transição pro filtro*/
+ }
+  
+h1#tt {
+ margin-top: 50px;
+ text-align: center;
+  }
+  
+  
+ .menu_geral {
+flex-direction: column;
+ align-items: center;
+  }
+ 
+ .navbar {
+  position: static;
+   height: auto;
+   background-color: transparent;
+  display: none;
+ }
+  
+   .navbar_ativo {
+  display: block;
+   left: 0;
+   height: 75%;
+  width: auto;
+   background-color: rgb(255, 255, 255);
+   }
+  
+  
+   
+  ul.navbar {
+  display: none;
+  }
+ 
+  .logo {
+margin-top: -3%;
+  margin-left: 5%;
+  
+  }
+  
+  
+  hr#hrtt{
+ width: 170px;
+   margin-left: 105px;
+   height: 2px;
+  background-color:rgb(39, 39, 241) ;
+  border: none;
+}
+   
+  /*=========================== MENU ====================*/
+  
+ .imgs_c img {
+   display: flex;
+   flex-direction: column;
+   }
+  
+  
+  
+  
+   /*=========================== Corpo ====================*/
+  .imgs_c {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 50px;
+ }
+  
+   .image-container{
+ margin-bottom: 20px;
+   }
+  
+   p#txt_c1{
+ margin-top: -50px;
+ text-align: center;
+  }
+  
+   /*=========================== Corpo ====================*/
+  
+   /*=========================== RODAPE ====================*/
+   footer {
+  padding: 127% 0;
+   }
+   
+   img#logordp {
+  margin-left: 15%;
+  margin-top: -130%;
+  height: 20vh;
+   }
+   
+   hr#hrrdp {
+  margin-left: 53.3%;
+ margin-top: -124%;
+ height: 90px;
+   }
+   p#plogo {
+   margin-left: 59%;
+   margin-top: -121%;
+   }
+  
+   h1#h1logo {
+  margin-left: 59%;
+   margin-top: -116.5%;
+   font-size: 1.4rem;
+   }
+  
+   h2#h2logo {
+  margin-left: 59.2%;
+  margin-top: -115%;
+ font-size: 1rem;
+   }
+   
+   h1#h1icns {
+   padding: 0;
+  margin-left: 60px;
+ margin-top: -50vh;
+ text-align: center;
+ font-size: 1.3rem;
+   }
+   
+   h2#h2icns {
+   padding: 0;
+   margin-left: 53px;
+  margin-top: -44vh;
+   text-align: center;
+   font-size: 1rem;
+   }
+  
+  img#icntelef {
+margin-left: 40%;
+  margin-top: -17vh;
+ height: 10vh;
+   }
+   
+  h1#h1telef {
+ margin-left: 95px;
+  margin-top: -5vh;
+  font-size: 1.1rem;
+   }
+   
+   h2#h2telef {
+ margin-left: 150px;
+margin-top: -1vh;
+font-size: 0.9rem;
+   }
+   
+   img#icnwpp {
+margin-left: 40%;
+ margin-top: 8vh;
+ height: 10vh;
+   }
+  
+   h1#h1wpp {
+  margin-left: 95px;
+ margin-top: 22vh;
+  font-size: 1.1rem;
+   }
+   
+   h2#h2wpp {
+margin-left: 150px;
+ margin-top: 26vh;
+  font-size: 0.9rem;
+  }
+   
+   img#icnemail {
+  margin-left: 40%;
+ margin-top: 34vh;
+  height: 10vh;
+   }
+  
+h1#h1email {
+margin-left: 80px;
+ margin-top: 46vh;
+ font-size: 1.1rem;
+ }
+  
+   h2#h2email {
+margin-left: 115px;
+margin-top: 50vh;
+ font-size: 0.9rem;
+  }
+   
+   img#icnhlp1 {
+  height: 8vh;
+  margin-top: -32vh;
+  margin-left: 23%;
+ }
+  
+ img#icnhlp2{
+  height: 8vh;
+  margin-top: -32vh;
+  margin-left: 43%;
+  }
+   
+   img#icnhlp3{
+   height: 8vh;
+   margin-top: -32vh;
+   margin-left: 63%;
+}
+  
+  p#plink {
+  display: none;
+  }
+  
+  a#plki {
+  display: none;
+  }
+  
+  a#plkh {
+  display: none;
+  }
+  
+  a#plkc {
+  display: none;
+  }
+  
+  h1#h1pfin {
+  margin-left: 15vw;
+  margin-top: 60vh;
+  font-size: 0.8rem;
+  }
+  
+  h2#h2pfin {
+  margin-left: 32.5vw;
+  margin-top: 60vh;
+  font-size: 0.8rem;
+  }
+   
+  div#pdireitos {
+  margin-left: 19vw;
+  margin-top: 63vh;
+  font-size: 0.6rem;
+   }
+   /*=========================== RODAPE ====================*/
+   
+   }

@@ -14,44 +14,52 @@ body{
 
 /*======================================================================header//*/
 header{
-    background-color: rgb(28, 28, 28);
-    height: 13vh;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgb(28, 28, 28);
+  height: 13vh;
+  align-items: center;
+}
+.menu_geral{
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
+.material-symbols-outlined{
+  display: none;
 }
 
+.btn-menu{
+    display: none;
+}
+  
 ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
-
 li{
-    font-size: 1.3rem;
-    margin-right: 15px;
-    font-weight: 600;
+  font-size: 1.3rem;
+  margin-right: 15px;
+  font-weight: 600;
 }
-
 a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
 a:hover{
-  color: rgb(39, 39, 241);
+color: rgb(39, 39, 241);
 }
-
 img#est_band{
-  height: 6rem;
-  background-color: transparent;
-  margin-left: 15px;
-  filter: saturate(0%); /*altera saturação */
-  transition: filter 0.3s ease; /*coloca transição pro filtro*/
+height: 6rem;
+background-color: transparent;
+margin-left: 15px;
+filter: saturate(0%); /*altera saturação */
+transition: filter 0.3s ease; /*coloca transição pro filtro*/
 }
 img#est_band:hover{
-  filter: saturate(100%); /*rover*/
+filter: saturate(100%); /*rover*/
 }
-/*======================================================================header//*/
+
 
 
 
@@ -406,7 +414,10 @@ color: black;
 }
 #flaticon{
     color: black;
-}
+} 
+
+
+
 /* ====================================================footer==  */
 
 @media (max-width: 768px) {

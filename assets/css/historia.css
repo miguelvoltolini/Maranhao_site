@@ -64,6 +64,15 @@ img#est_band:hover{
 h1#h1historia{
   text-align: center;
 }
+hr{
+  margin-top: 5px; 
+  opacity: 100%;
+  height: 1px;
+  width: 450px;
+  background-color: rgba(128, 128, 128, 0.81) ;
+  border: none;
+  margin-left: 300px
+}
 
 
   

@@ -14,8 +14,7 @@ body{
   
   .corpo_sobre{
     margin-left: 100px;
-    margin-right: 200px;
-
+    margin-right: 100px;
 }
 
 /*======================================================================header//*/
@@ -71,20 +70,82 @@ hr{
     width: 450px;
     background-color: rgba(128, 128, 128, 0.81) ;
     border: none;
-    margin-left: 300px
+    margin-left: 358px;
+  }
+
+/* Estilize o hr */
+#hrtt {
+  margin: 0 auto; /* Centraliza o hr horizontalmente */
+  width: 50%; /* Define a largura do hr */
+  border-color: #000; /* Cor da linha do hr */
+  margin-bottom: 20px;
 }
-.alunos{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+/* Estilize a seção de alunos */
+.sobre_alunos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinha verticalmente no centro */
 }
-.img_aluno{
-    display: flex;
-    flex-direction: row;
+
+/* Estilize as seções de Giovana e Miguel */
+.sobre_giovana,
+.sobre_miguel {
+  text-align: center;
 }
-.img_aluno .image-container img{
-    width: 200px;
+
+/* Estilize as imagens de Giovana e Miguel */
+.sobre_giovana img,
+.sobre_miguel img {
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Ajusta a imagem para cobrir a forma circular */
+  height: 450px; /* Altura das imagens */
+  width: 450px; /* Largura das imagens */
+  cursor: pointer; /* Adicione um cursor de ponteiro para indicar interatividade */
+  filter: saturate(0%); /* Mantém a imagem em cores */
+  transition: filter 0.3s ease; /* Adicione uma transição para suavizar a alteração */
+}
+
+/* Aplique o filtro para tornar as imagens em preto e branco no hover */
+.sobre_giovana img:hover,
+.sobre_miguel img:hover {
+  filter: saturate(100%); /* Transforma a imagem em preto e branco */
+}
+
+/* Estilize o texto sobre as imagens */
+.image-container {
+  position: relative;
+}
+
+.image-text_mi {
+  position: absolute;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+  color: white;
+  bottom: 50%; /* Coloca o texto na metade inferior da imagem */
+  left: 50%;
+  transform: translate(-50%, 50%); /* Centraliza horizontal e verticalmente */
+  opacity: 0;
+}
+
+/* Exiba o texto quando o mouse passar sobre as imagens */
+.sobre_giovana:hover .image-text_mi,
+.sobre_miguel:hover .image-text_mi {
+  opacity: 1;
+}
+
+/* Estilize o corpo da página */
+.corpo_sobre {
+  text-align: center;
+  padding: 20px;
+}
+
+.cons-text{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 @media (max-width: 768px) {
